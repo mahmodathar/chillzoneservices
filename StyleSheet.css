@@ -1,0 +1,61 @@
+nav {
+        background-color:#181818 !important;
+}
+
+main .carousel-inner *{
+    color: #181818;
+}
+.text-start a,.carousel-caption h1, .text-start{
+    color:#F6B801;
+}
+
+.carousel-caption .btn{
+    background:#F6B801;
+    color: white;
+}
+
+.marketing h4{
+    font-weight: 600;
+}
+.marketing center div {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    background-color: #181818;
+    border-radius: 50px;
+}
+.marketing center i {
+    font-size: 50px;
+    color: #F6B801;
+}
+footer p{
+    color:white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-top: 12px;
+}
+
+section{
+    margin-top: 10px;
+    padding: 100px 0;
+    background: rgba(140, 140, 140, 0.04);
+}
+
+section div> h2, section div> p{
+    margin-top: 4em;
+}
+
+.splide h4{
+    font-size: 16px;
+    color: #F6B801;
+    font-weight: 800;
+}
+.splide p{
+    font-size: 15px;
+}
+.splide a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #F6B801;
+}

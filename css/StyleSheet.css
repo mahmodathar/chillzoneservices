@@ -1,0 +1,248 @@
+/*Primary Colors */
+/*#659cbc rgba(101,156,188,-12) // Light Color*/
+/*#1b5276 rgba(27,82,118,-8) // Dark Color*/
+
+.primary-Light{
+    background-color: #659cbc !important;
+    color: white;
+}
+.primary-Dark {
+    background-color: #1b5276 !important;
+    color: white;
+}
+/*Primari Color End*/
+h1, .splide h4, h5, h2{
+    color:#1b5276 !important;
+}
+nav {
+        background-color:#181818 !important;
+}
+
+main .carousel-inner *{
+    color: #181818;
+}
+.text-start a,.carousel-caption h1, .text-start{
+    color:#1b5276;
+}
+
+.btn{
+    background:#659cbc !important;
+    color: white !important;
+}
+.bi{
+    color: #1b5276 !important;
+}
+
+.marketing h4{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #1b5276;
+}
+.marketing center div {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    background-color: rgba(240,240,240,1);
+    border-radius: 50px;
+}
+.marketing center i {
+    font-size: 50px;
+}
+footer p{
+    color:white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-top: 12px;
+}
+
+section{
+    margin-top: 10px;
+    padding: 100px 0;
+    background: rgba(140, 140, 140, 0.04);
+}
+section div> h2, section div> p{
+    margin-top: 4em;
+}
+
+/*Our Feature Work*/
+.splide h4{
+    font-size: 16px;
+    font-weight: 800;
+}
+.splide p{
+    font-size: 15px;
+}
+.splide a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1b5276;
+}
+
+
+/*Client  Slider*/
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+
+/*Logo Slider*/
+
+.logo-container {
+    overflow: hidden !important;
+}
+.logo-container .slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+}
+
+.logo-container .slider .logos {
+    width: 100%;
+    display: inline-block;
+    margin: 0px 0;
+}
+
+.logo-container .slider .logos .bi{
+    color: #181818 !important;
+    font-size: 3rem;
+    letter-spacing: 50px;
+    width: calc(100% / 5);
+    animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+
+@keyframes slidein {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*Form*/
+form label span{
+    color:red
+}
